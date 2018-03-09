@@ -27,19 +27,19 @@
         android:id="@+id/tv_QS1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="O  Restaurante Salex tem em sua essência a culinária brasileira com a utilização de receitas próprias, com  sabores diversos e ainda, dentro do cardápio utilizamos receitas da culinária espanhola, italiana, oriental, portuguesa dentre outras." />
+        android:text="O  Restaurante Sales tem em sua essência a culinária brasileira com a utilização de receitas próprias, com  sabores diversos e ainda, dentro do cardápio utilizamos receitas da culinária espanhola, italiana, oriental, portuguesa dentre outras." />
 
     <TextView
         android:id="@+id/tv_QS2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="A equipe Salex foi elaborada pensando no melhor atendimento, aliando a qualidade de nossos produtos, possuindo profissionais qualificados na área administrativa, Gestores capacitados (gerentes), profissionais na  área de nutrição, cozinheiros e auxiliares de cozinha capacitados para o atendimento." />
+        android:text="A equipe Sales foi elaborada pensando no melhor atendimento, aliando a qualidade de nossos produtos, possuindo profissionais qualificados na área administrativa, Gestores capacitados (gerentes), profissionais na  área de nutrição, cozinheiros e auxiliares de cozinha capacitados para o atendimento." />
 
     <TextView
         android:id="@+id/tv_QS3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Um diferencial do Restaurante Salex, com certeza é a visão de seus gestores, preocupados e atentos com o mercado, aliando a inovação para que o Restaurante apresente os melhores produtos aliando com custo/benefício." />
+        android:text="Um diferencial do Restaurante Sales, com certeza é a visão de seus gestores, preocupados e atentos com o mercado, aliando a inovação para que o Restaurante apresente os melhores produtos aliando com custo/benefício." />
 
 
 </LinearLayout>
