@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.iff.pooa20172.p1_2017_2.ProdutoActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_pratos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardápio"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <ListView
+                android:id="@+id/lvEquipes"
+                android:layout_width="match_parent"
+                android:layout_height="1750dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total do Pedido: 0.0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forma de Pagamento"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/rb_dinheiro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dinheiro" />
+
+                <RadioButton
+                    android:id="@+id/rb_credito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Crédito" />
+
+                <RadioButton
+                    android:id="@+id/rb_debito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Débito" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_finalizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finalizar Pedido" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.iff.pooa20172.p1_2017_2.MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     Restaurante Salex"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="               Ainda não possui cadastro?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_cadastro"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar-se" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

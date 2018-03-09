@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.iff.pooa20172.p1_2017_2.IdentificacaoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço de Entrega"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_Rua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rua"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_Bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bairro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_Numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_Complemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Complemento"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/et_Referencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ponto de Referência"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_concluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Concluir" />
+
+</LinearLayout>

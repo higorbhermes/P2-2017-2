@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.iff.pooa20172.p1_2017_2.MenuActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Restaurante Salex"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_restaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="163dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_Pedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Pedido" />
+
+    <Button
+        android:id="@+id/button_QuemSomos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quem Somos" />
+
+    <Button
+        android:id="@+id/button_Localização"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nossa Localização" />
+
+    <Button
+        android:id="@+id/button_Contatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nossos Contatos" />
+
+    <Button
+        android:id="@+id/button_Sair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
