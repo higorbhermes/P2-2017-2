@@ -45,7 +45,7 @@ public class MenuActivity extends AppCompatActivity implements Serializable{
         button_NossaLocalizacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuActivity.this, LocalizacaoActivity.class);
+                Intent intent = new Intent(MenuActivity.this, MapsActivity.class);
                 startActivity(intent);
             }
         });
