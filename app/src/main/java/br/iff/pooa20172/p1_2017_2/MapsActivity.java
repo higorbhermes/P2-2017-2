@@ -4,6 +4,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -43,12 +44,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.getUiSettings().setZoomControlsEnabled(true);
         // Add a marker in Sydney and move the camera
         LatLng restaurante_sales = new LatLng(-21.128131, -42.370949);
-        mMap.addMarker(new MarkerOptions().position(restaurante_sales).title("Marcação do Restaurante Sales"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(restaurante_sales));
+        mMap.addMarker(new MarkerOptions().position(restaurante_sales).title("Localização do Restaurante Sales"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(restaurante_sales, 20));
+        CameraUpdate zoom = CameraUpdateFactory.zoomTo(20);
+        mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
     }
 
     @Override
     public void onMapClick(LatLng latLng) {
-        Toast.makeText(this, "Nosso Endereço: Maestro Sansão, 123. Centro, Muriaé", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Nosso Endereço: Rua Dr. Luis Gonzaga, 123. Centro, Muriaé", Toast.LENGTH_SHORT).show();
     }
 }
